@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { Container } from "react-bootstrap";
+import { Col, Container,Row } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
+
 
 export const Contact = () => {
     const formInitialDetails = {
@@ -36,7 +37,7 @@ export const Contact = () => {
                     <Col md={6}>
                         <h2>Get In Touch</h2>
                         <form onSubmit={handleSubmit}>
-                        <form>
+                        
                             <Row>
                                 <Col sm={6} className="px-1">
                                     <input type="text" value={formDetails.firstName} placeholder="first Name" onChange={(e) => onFormUpdate('firstName', e.target.value)} />
