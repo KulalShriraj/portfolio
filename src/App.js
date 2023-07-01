@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import {NavBar} from './components/NavBar';
 import {Banner} from './components/Banner';
-import {Skill} from './components/Skill';
+import {Skills} from './components/Skill';
 import {Projects} from './components/Projects';
 import {Contact} from './components/Contact';
 
@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <NavBar/>
       <Banner/>
-      <Skill/>
+      <Skills/>
       <Projects/>
       <Contact/>
      

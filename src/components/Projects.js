@@ -59,7 +59,7 @@ export const Projects = () => {
 
 
                   <h2>Projects</h2>
-                  <p>jsdcykgsdvkuhsaiaulvhfauildhvuifdhvl hfUDVHUFHVIULAKDHVIULZDFHXUVHADZXUFVHU
+                  <p>Here are the list of project 
                   </p>
                 </div>}
           </TrackVisibility>
